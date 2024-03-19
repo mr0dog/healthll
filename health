@@ -1,0 +1,11 @@
+def calculate_health(currenthealth, damagereceived, armor):
+    health = damagereceived*armor-currenthealth
+    print(health)
+
+calculate_health(100,10,5)
+
+def average_of_five(dog, cat, hampter, hampter2, cat2):
+    numbus = dog+cat+hampter+hampter2+cat2 
+    numbus/5
+    print(numbus)
+average_of_five(10, 20, 30, 40, 50)
